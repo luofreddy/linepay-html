@@ -1,0 +1,31 @@
+.wrap{
+  display: flex;
+  width: 100vw;
+  min-height: 100vh;
+}
+
+.panel{
+  max-width: 500px;
+  width: 30vw;
+  min-height: 100vh;
+  background-color: darkgray;
+  position: relative;
+}
+
+.line_preview{
+  flex: 1;
+  min-height: 100vh;
+}
+
+.panel_footer{
+  position: fixed;
+  bottom: 0;
+  padding: 16px;
+  width: inherit;
+}
+
+.export_btn{
+  width: calc(100% - 32px);
+  height: 28px;
+  display: block;
+}
